@@ -3,6 +3,19 @@
     <head>
         <meta charset="uft-8">
         <title>Title</title>
+        <script>
+            function readyaml (){
+                const yaml = require('js-yaml');
+                const doc = `
+                Title: Title
+                Subtitle: Subtitle
+                URL-1: https://github.com/
+                URL-2: https://github.com/
+                `;
+                const obj = yaml.load("_config.yml");
+                console.log(obj); // {name: "John Smith", age: 0}
+            }
+        </script>
         <style>
             .button{
                 z-index: 1;
@@ -70,7 +83,7 @@
                 z-index: -1;
             }
             #Title{
-                text-shadow: 2px 2px grey;
+                text-shadow: 2px 2px rgb(133, 133, 133);
                 text-align: center;
                 font-family:Arial, Helvetica, sans-serif;
                 font-size: 500%;
@@ -91,6 +104,7 @@
         </style>
     </head>
     <body>
+        <button type="button" onclick="readyaml()">Readyaml</button>
         <a href="https://github.com/"><button class="button" id="button1" style="vertical-align:middle"><span>Join </span></button></a>
         <a href="https://github.com/"><button class="button" id="button2" style="vertical-align:middle"><span>More </span></button></a>
         <h1 id="Title">Enter Your Title Here</h1>

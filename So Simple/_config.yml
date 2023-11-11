@@ -1,0 +1,27 @@
+Title:
+  Text: Title
+  Size: 500%
+  Color: rgb(255, 255, 255)
+  Shadow-Color: rgb(133, 133, 133)
+
+Subtitle:
+ Text: Subtitle
+ Size: 500%
+ Color: rgb(184, 184, 184);
+
+URL:
+  url1: https://github.com/
+  url2: https://github.com/
+
+Background:
+  img-url: 
+
+Button:
+ Button1:
+  url:
+  Text: 
+  Color: 
+ Button2:
+  url:
+  Text: 
+  Color: 
