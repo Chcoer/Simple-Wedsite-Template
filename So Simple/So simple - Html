@@ -49,13 +49,13 @@
                 border-radius: 7px rgb(51, 51, 51);*/
                 background-color: #1e57f4;
                 top: 80%;
-                left: 65%;
+                left: 62%;
             }
             #button2 {
                 color: #696969;
                 background-color: #ffffffc2;
                 top: 80%;
-                left: 85%;
+                left: 75%;
             }
             #img1{
                 display: block;
